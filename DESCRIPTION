@@ -1,0 +1,20 @@
+Package: predictGA
+Date: 2016-07-04
+Type: Package
+Title: Prediction of gestational age with Illumina HumanMethylation450
+        data
+Version: 0.99.0
+Author: Jon Bohlin
+Authors@R: c(person("Jon", "Bohlin", role=c("cre"), email="jon.bohlin@fhi.no"))
+Maintainer: Jon Bohlin <jon.bohlin@fhi.no>
+Description: [predictGA] predicts gestational age using Illumina HumanMethylation450 CpG data.
+License: GPL (>=2)
+LazyData: TRUE
+Depends: R (>= 3.2.1)
+Imports: glmnet, stats, utils, Matrix
+biocViews: DNAMethylation, Epigenetics, Regression,
+        BiomedicalInformatics
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2016-07-06 06:32:50 UTC; jonb
