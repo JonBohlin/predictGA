@@ -1,0 +1,5 @@
+To install, download predictGA_0.99.0.tar.gz, and type (make sure to include the path) from R:
+
+install.packages("predictGA_0.99.0.tar.gz", repos=NULL, type="source")
+
+It is dependent on the "glmnet" library, so make sure that it is installed.
